@@ -14,6 +14,8 @@
 		32FA1162279941E40051D12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA1161279941E40051D12B /* Assets.xcassets */; };
 		32FA1165279941E40051D12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA1163279941E40051D12B /* LaunchScreen.storyboard */; };
 		32FA1168279941E40051D12B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA1167279941E40051D12B /* main.m */; };
+		32FA117027998D160051D12B /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA116F27998D160051D12B /* ViewController2.m */; };
+		32FA117327998F520051D12B /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA117227998F520051D12B /* Tab2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		32FA1164279941E40051D12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32FA1166279941E40051D12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FA1167279941E40051D12B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FA116E27998D160051D12B /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		32FA116F27998D160051D12B /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		32FA117127998F520051D12B /* Tab2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tab2ViewController.h; sourceTree = "<group>"; };
+		32FA117227998F520051D12B /* Tab2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tab2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +74,14 @@
 				32FA115B279941E20051D12B /* ViewController.h */,
 				32FA115C279941E20051D12B /* ViewController.m */,
 				32FA115E279941E20051D12B /* Main.storyboard */,
+				32FA117127998F520051D12B /* Tab2ViewController.h */,
+				32FA117227998F520051D12B /* Tab2ViewController.m */,
 				32FA1161279941E40051D12B /* Assets.xcassets */,
 				32FA1163279941E40051D12B /* LaunchScreen.storyboard */,
 				32FA1166279941E40051D12B /* Info.plist */,
 				32FA1167279941E40051D12B /* main.m */,
+				32FA116E27998D160051D12B /* ViewController2.h */,
+				32FA116F27998D160051D12B /* ViewController2.m */,
 			);
 			path = FriendManager2_iOS_OC;
 			sourceTree = "<group>";
@@ -148,8 +158,10 @@
 			files = (
 				32FA115D279941E20051D12B /* ViewController.m in Sources */,
 				32FA1157279941E20051D12B /* AppDelegate.m in Sources */,
+				32FA117027998D160051D12B /* ViewController2.m in Sources */,
 				32FA1168279941E40051D12B /* main.m in Sources */,
 				32FA115A279941E20051D12B /* SceneDelegate.m in Sources */,
+				32FA117327998F520051D12B /* Tab2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J6CP5DTV3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendManager2_iOS_OC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J6CP5DTV3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendManager2_iOS_OC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
